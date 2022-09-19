@@ -32,3 +32,11 @@
     font-size: 15px;
     padding: 8px;
 }
+
+
+.sfondouno{
+    background-image: url(img/jumbo.png);
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
