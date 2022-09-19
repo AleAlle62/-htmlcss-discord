@@ -6,12 +6,11 @@
 
 .containeruno{
     height: 80px;
-    background-color: blue;
+    background-color: rgb(31, 70, 245);
     display: flex;
     width: 100%;
     color: white;
-    flex-direction: row;
-    justify-content: space-between; 
+    justify-content: space-around; 
 }
 
 .logo{
@@ -21,9 +20,15 @@
 
 .link{
     align-self: center;
-    align-self: space-between;
 }
 
 .accedi{
     align-self: center;
+    width: 60px;
+    height: 35px;
+    background-color: white;
+    color: black;
+    border-radius: 40%;
+    font-size: 15px;
+    padding: 8px;
 }
