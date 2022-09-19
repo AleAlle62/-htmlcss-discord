@@ -2,6 +2,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .containeruno{
@@ -22,6 +23,10 @@
     align-self: center;
 }
 
+.link span{
+    margin: 15px;
+}
+
 .accedi{
     align-self: center;
     width: 60px;
@@ -36,7 +41,83 @@
 
 .sfondouno{
     background-image: url(img/jumbo.png);
-    height: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 800px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.perparlare{
+    color: white;
+    font-size: 55px;
+    text-align: center;
+    margin-top: 180px;
+}
+
+.sottotitolo{
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px; 
+    margin-top: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+} 
+    
+.freccia{
+    font-size: 30px;
+}
+
+
+.scarica{
+    margin-top: 20px;
+    color: black;
+    height: 50px;
+    width: 180px;
+    background-color: white;
+    border-radius: 28px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block; 
+}
+
+.aprids{
+    padding: 12px;
+    color: white;
+    height: 50 px;
+    width: 300px;
+    background-color: black;
+    border-radius: 28px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: inline-block;
+}
+
+.container2{
+    height: 1000px;
+    /* cambia in bianco */
+    background-color: white;
+    margin-top: -95px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.rana{
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 400px;
+}
+
+.accantorana{
+    margin-top: 130px;
+    margin-right: 500px;
+    font-size: 20px;
+}
+
+.accantorana p{
+    margin-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
