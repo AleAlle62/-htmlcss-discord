@@ -3,3 +3,27 @@
     box-sizing: border-box;
     padding: 0;
 }
+
+.containeruno{
+    height: 80px;
+    background-color: blue;
+    display: flex;
+    width: 100%;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.logo{
+    height: 30px;
+    align-self: center;
+}
+
+.link{
+    align-self: center;
+    align-self: space-between;
+}
+
+.accedi{
+    align-self: center;
+}
