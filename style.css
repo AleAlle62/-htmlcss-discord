@@ -38,7 +38,7 @@ html {
 }
 
 header {
-	background-color: #255EE9;
+	background-color: rgb(65, 65, 221);
 	/* padding: 0 1rem; */
 }
 
@@ -70,7 +70,7 @@ header {
 }
 
 .menu-top .menu-link:hover {
-	background-color: aqua;
+	background-color: rgb(65, 65, 221);
 }
 
 .menu-top .logo {
@@ -103,25 +103,13 @@ header {
 	margin-bottom: .5rem;
 }
 
-.fa-arrow-down {
-	margin-right: 2em;
-}
 
-
-
-
-
-
-
-
-
-
-
-
-
+/* fine del header */
 
 .container2{
-    height: 1000px;
+    max-width: 1000px;
+	margin: 0 auto;
+    height: 500px;
     background-color: white;
     margin-top: 30px;
     display: flex;
@@ -135,7 +123,6 @@ header {
 }
 
 .accantorana{
-    margin-top: 50px;
     margin-right: 500px;
     font-size: 20px;
 }
@@ -147,90 +134,107 @@ header {
 }
 
 
-.container3{
-    height: 500px;
+
+.inception{
     background-color: rgb(239, 236, 236);
-    margin-top: -600px; 
+}
+.container3{
+    max-width: 1200px;
+	margin: 0 auto;
+    height: 500px;
+    background-color:rgb(239, 236, 236);
+    margin-top: 30px;
     display: flex;
-    justify-content: center;
-    flex-direction: row-reverse;
+    justify-content: center
+    /* flex-direction: row-reverse; */
 }
 
-
 .mago{
+    margin-top: 30px;
     height: 400px;
-    margin-top: 50px; 
-    margin-right: 300px;
+    margin-left: 200px;
 }
 
 .accantomago{
-    margin-top: 150px;
+    margin-top: 90px;
+    margin-right: 500px;
     font-size: 20px;
-    margin-left: 300px;
 }
 
 .accantomago p{
+    margin-right: -200px;
     margin-top: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
+
+
 .container4{
+    max-width: 1000px;
+	margin: 0 auto;
     height: 500px;
     background-color: white;
+    margin-top: 30px;
     display: flex;
+    justify-content: center;
 }
 
 
 .libro{
     height: 400px;
-    margin-top: 50px; 
-    margin-left: 450px;
+    margin-left: 400px;
 }
 
 .accantolibro{
-    margin-top: 100px;
-    font-size: 20px;
     margin-right: 500px;
+    font-size: 20px;
 }
 
 .accantolibro p{
+    margin-right: -200px;
     margin-top: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
-.container5{
-    height: 1000px;
-    width: 100%;
+.inception{
     background-color: rgb(239, 236, 236);
-    display: inline-block;
+}
+.container5{
+    max-width: 2000px;
+	margin: 0 auto;
+    height: 700px;
+    background-color:rgb(239, 236, 236);
+    display: flex;
+    /* justify-content: center  */
+    flex-direction: column;
 }
 
 .tecnologia{
-    margin-left: 600px;
-    margin-top: 50px;
-    font-size: 20px;
+    /* margin-top: 30px; */
+    /* height: 400px; */
+    margin-left: 550px;
+    margin-top: 20px; 
 }
 
 .tecnologia p{
-    margin-top: 20px;
-    margin-right: 600px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-right: 500px;
+    font-size: 20px;
 }
+
 
 
 .telefono{
     height: 500px;
-    margin-left: 550px;
 } 
 
 
-.stelle{
+/* .stelle{
     margin-top: 20px;
     margin-left: 700px;
-}
-
+} */
+/* 
 
 .avventura{
     margin-left: 50px;
@@ -250,7 +254,7 @@ header {
     padding: 5px;
     border-radius: 28px;
 
-}
+} */
 
 
 .penultimocontainer{
